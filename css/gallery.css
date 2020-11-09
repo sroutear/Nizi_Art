@@ -1,0 +1,311 @@
+@import "./common/navbar.css";
+@import "./common/footer.css";
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "微軟正黑體";
+}
+
+
+
+/* 分頁固定標題 */
+.page-tittle{
+  background-image: url("../image/banner.png");
+  background-size: 1200px;
+  background-repeat: repeat-x;
+  background-color: #F6F6F6;
+  background-position: bottom;
+  height: 255px;
+  padding-bottom: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+}
+
+.tittle-container > .text{
+  text-align: center;
+}
+
+.text h2{
+  color: #333;
+  /* color: #FF3355; */
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.text span{
+  color: #999;
+  font-size: 20px;
+}
+
+.wrap{
+  width: 1000px;
+  margin: 100px auto;
+}
+
+/* tittle小圓點 */
+.circle-yellow-m{
+  display: block;
+  height: 18px;
+  width: 18px;
+  background-color: rgba(255, 187, 51, 0.5);
+  border-radius: 50%;
+  position: absolute;
+  left: 10%;
+  top: 40px;
+}
+
+.circle-red-s{
+  display: block;
+  height: 12px;
+  width: 12px;
+  background-color: rgba(255, 49, 49, 0.5);
+  border-radius: 50%;
+  position: absolute;
+  left: 25%;
+  top: 75px;
+  opacity: .7;
+}
+
+.circle-red-m{
+  display: block;
+  height: 30px;
+  width: 30px;
+  background-color: rgba(255, 49, 49, 0.5);
+  border-radius: 50%;
+  position: absolute;
+  left: 15%;
+  bottom: 40%;
+}
+
+.circle-blue-m{
+  display: block;
+  height: 22px;
+  width: 22px;
+  background-color: rgba(66, 154, 186, 0.5);
+  border-radius: 50%;
+  position: absolute;
+  left: 32%;
+  bottom: 45%;
+}
+
+.circle-blue-s{
+  display: block;
+  height: 18px;
+  width: 18px;
+  background-color: rgba(66, 154, 186, 0.5);
+  border-radius: 50%;
+  position: absolute;
+  right: 35%;
+  top: 55px;
+  opacity: .7;
+}
+
+.circle-red-xs{
+  display: block;
+  height: 9px;
+  width: 9px;
+  background-color: rgba(255, 49, 49, 0.5);
+  border-radius: 50%;
+  position: absolute;
+  top: 35px;
+  right: 19%;
+  opacity: .5;
+}
+
+.circle-yellow-l{
+  display: block;
+  height: 26px;
+  width: 26px;
+  background-color: rgba(255, 187, 51, 0.5);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 100px;
+  right: 25%;
+}
+
+.circle-red-l{
+  display: block;
+  height: 50px;
+  width: 50px;
+  background-color: rgba(255, 49, 49, 0.5);
+  border-radius: 50%;
+  position: absolute;
+  right: 8%;
+  top: 80px;
+}
+
+/* 輪播照片 */
+.gallery-pic{
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.text{
+  text-align: center;
+}
+
+.text h3{
+  font-size: 25px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #FF3158;
+  padding: 5px;
+  display: inline-block;
+  color: #333;
+}
+
+.text p{
+  color: #666;
+  padding: 20px;
+}
+
+.slider {
+  width: 100%;
+  /* margin: 20px auto; */
+}
+
+.slider img{
+  width: 100%;
+}
+
+
+
+/* 申請辦法 */
+.rent{
+  max-width: 1200px;
+  margin: 60px auto 100px;
+  padding: 0 20px;
+}
+
+.wrap-rent h2{
+  font-size: 25px;
+  border-bottom: 3px solid #FF3158;
+  padding: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+  color: #333;
+}
+
+.item{
+  padding: 10px 0;
+}
+
+.item h3{
+  font-size: 20px;
+  padding: 5px;
+  color: #9F8778;
+}
+
+.item p{
+  padding: 5px;
+  color: #666;
+}
+
+.btn{
+  margin-top: 50px;
+  text-align: center;
+  transition: .5s;
+}
+
+.btn a::before{
+  content: "\f019";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1em;
+  color: #fff;
+  padding-right: 3px;
+}
+
+.btn a{
+  color: #fff;
+  text-decoration: none;
+  padding: 15px;
+  /* border: 1px solid #FF3158; */
+  background-color: #EE602A;
+  border-radius: 10px;
+  transition: .5s;
+}
+
+
+.btn:hover a{
+  background-color: #333;
+  /* box-shadow: 0 12px 15px #F5C7CE; */
+
+}
+
+.btn:hover{
+  transform: translateY(3px);
+}
+
+
+
+/* 導覽列位置提示 */
+#list_gallery{
+  color: #FF3355;
+}
+
+/* RWD */
+@media screen and (max-width: 575px){
+  .circle-red-l{
+    display: none;
+  }
+
+  .circle-red-s{
+    display: none;
+  }
+
+  .circle-blue-m{
+    display: none;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+
+
+/* 返回top按鈕 */
+#up-btn {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  transition: background-color .3s,
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+#up-btn::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#up-btn:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#up-btn.show {
+  opacity: 1;
+  visibility: visible;
+}

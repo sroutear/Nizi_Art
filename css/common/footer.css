@@ -1,0 +1,66 @@
+footer{
+  width: 100%;
+  color: #ffff;
+  margin: 0;
+}
+
+.footer_container{
+  background-color: #2A2A2A;
+  padding: 10px 30px;
+}
+
+.footer_container .info{
+  display: inline-block;
+
+}
+
+.footer_container .icon {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.footer_container .icon a{
+  margin-right: 15px;
+  opacity: 1;
+  transition: .3s;
+}
+
+.footer_container .icon a:hover{
+  opacity: .5;
+}
+
+footer .copyright{
+  background-color: #141414;
+  padding: 8px 0px;
+}
+
+footer .copyright p {
+  font-size: 12px;
+  text-align: center;
+  margin: 0;
+}
+
+
+/* RWD */
+@media screen and (max-width: 575px){
+  .footer_container{
+    padding: 10px 30px;
+  }
+
+  .footer_container .info{
+    display: block;
+
+  }
+
+  .footer_container .icon {
+    display: inline-block;
+    margin-left: 0px;
+    padding-top: 10px;
+  }
+
+  .footer_container .icon a{
+    margin-right: 15px;
+    opacity: 1;
+    transition: .3s;
+  }
+}

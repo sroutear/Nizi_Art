@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>Nizi Art</title>
+  <link rel="stylesheet" href="./css/event.css">
+  <link href="css/hamburgers.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header>
+    <nav class="nav">
+      <div class="top">
+        <a href="./index.html">
+          <img src="./image/logo.png">
+        </a>
+        <button class="hamburger hamburger--spin" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+      </div>
+
+      <ul class="nav_list" id="nav_list">
+        <li>
+          <a href="./about.html" id="list_about">關於我們</a>
+        </li>
+        <li>
+          <a href="./news.html" id="list_news">最新消息</a>
+        </li>
+        <li>
+          <a href="./course.html" id="list_course">課程資訊</a>
+        </li>
+        <li>
+          <a href="./event.html" id="list_event">活動花絮</a>
+        </li>
+        <li>
+          <a href="./gallery.html" id="list_gallery">場地租借</a>
+        </li>
+        <li>
+          <a href="./faq.html" id="list_faq">常見問題</a>
+        </li>
+        <li>
+          <div class="login" id="login-show">Login</div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 登入燈箱 -->
+  <div class="login-modal-wrapper" id="login-modal">
+   <div class="modal">
+     <div class="close-modal">
+       <i class="fa fa-2x fa-times"></i>
+     </div>
+     <div id="login-form">
+       <h2>會員登入</h2>
+       <form action="#">
+         <input class="form-control" type="text" placeholder="請輸入Email">
+         <input class="form-control" type="password" placeholder="請輸入密碼">
+         <div id="submit-btn">登入</div>
+         <div id="sign-btn">註冊</div>
+       </form>
+     </div>
+   </div>
+  </div>
+
+  <section class="page-tittle animate__animated animate__fadeIn">
+    <div class="tittle-container">
+      <div class="text animate__animated animate__swing">
+        <h2>Activities</h2>
+        <span>活動花絮</span>
+      </div>
+    </div>
+    <div class="circle-yellow-m"></div>
+    <div class="circle-red-s"></div>
+    <div class="circle-red-m"></div>
+    <div class="circle-blue-m"></div>
+    <div class="circle-blue-s"></div>
+    <div class="circle-red-xs"></div>
+    <div class="circle-yellow-l"></div>
+    <div class="circle-red-l"></div>
+  </section>
+
+
+
+  <section class="pic-container">
+    <div class="pic-tittle">
+      <h2>「畫畫就是一種寫日記的方式。」 — 畢卡索</h2>
+      <p>在這裡，你可以自由自在地揮灑，拿起畫筆，在畫布上舞動吧！釋放心中潛藏的藝術靈魂。</p>
+    </div>
+
+    <div class="wrap">
+      <div class="item">
+        <img src="./image/e1.jpg">
+        <div class="tag">#couple</div>
+      </div>
+      <div class="item">
+        <img src="./image/e2.jpg">
+        <div class="tag">#girl's power</div>
+      </div>
+      <div class="item">
+        <img src="./image/e3.jpg">
+        <div class="tag">#love is art</div>
+      </div>
+    </div>
+
+    <div class="wrap" data-aos="fade-up" data-aos-duration="1000">
+      <div class="item">
+        <img src="./image/e4.jpg">
+        <div class="tag">#family</div>
+      </div>
+      <div class="item">
+        <img src="./image/e5.jpg">
+        <div class="tag">#couple</div>
+      </div>
+      <div class="item">
+        <img src="./image/e6.jpg">
+        <div class="tag">#love is art</div>
+      </div>
+      <div class="item">
+        <img src="./image/e7.jpg">
+        <div class="tag">#with my pet</div>
+      </div>
+    </div>
+
+    <div class="wrap" data-aos="fade-up" data-aos-duration="1000">
+      <div class="item">
+        <img src="./image/e8.jpg">
+        <div class="tag">#all you need is love & cat</div>
+      </div>
+      <div class="item">
+        <img src="./image/e9.jpg">
+        <div class="tag">#happy birthday</div>
+      </div>
+      <div class="item">
+        <img src="./image/e10.jpg">
+        <div class="tag">#tiger or cat</div>
+      </div>
+    </div>
+
+    <div class="wrap" data-aos="fade-up" data-aos-duration="1000">
+      <div class="item">
+        <img src="./image/e11.jpg">
+        <div class="tag">#myself</div>
+      </div>
+      <div class="item">
+        <img src="./image/e12.jpg">
+        <div class="tag">#wedding</div>
+      </div>
+      <div class="item">
+        <img src="./image/e13.jpg">
+        <div class="tag">#Andy Warhol</div>
+      </div>
+      <div class="item">
+        <img src="./image/e14.jpg">
+        <div class="tag">#lion heart</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 返回top按鈕 -->
+  <a id="up-btn"></a>
+
+  <footer>
+      <div class="footer_container">
+        <div class="info">
+          <p>Nizi Art 藝術工作坊<br>
+            TEL：03-5400-5433<br>
+            桃園市中壢區中大路300號
+          </p>
+        </div>
+
+        <div class="icon">
+          <a href="#"><img src="https://imgur.com/ydZir4N.png"></a>
+          <a href="#"><img src="https://imgur.com/0FRFHFL.png"></a>
+          <a href="#"><img src="https://imgur.com/2JAuBba.png"></a>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>©2020 Nizi Art, Ltd. All Rights Reserved.</p>
+      </div>
+    </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(function(){
+      // hamburger icon 的切換
+      $("button.hamburger").on("click", function(){
+        $(this).toggleClass("is-active");
+      });
+    });
+
+    $(function(){
+      // 點擊按鈕，選單縮放
+      $("button.hamburger").on("click", function(){
+        $("ul.nav_list").slideToggle();
+      });
+    });
+
+    // 會員登入
+    $(function() {
+      $('#login-show').click(function() {
+        $('#login-modal').fadeIn();
+      });
+
+      $('.close-modal').click(function() {
+        $('#login-modal').fadeOut();
+      });
+    });
+
+    // 返回top-btn
+    var btn = $('#up-btn');
+    $(window).scroll(function() {
+      if ($(window).scrollTop() > 300) {
+        btn.addClass('show');
+      } else {
+        btn.removeClass('show');
+      }
+    });
+
+    btn.on('click', function(e) {
+      e.preventDefault();
+      $('html, body').animate({
+        scrollTop:0
+      }, '300');
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>Nizi Art</title>
+  <link rel="stylesheet" href="./css/index.css">
+  <link href="css/hamburgers.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header>
+    <nav class="nav">
+      <div class="top">
+        <a href="./index.html">
+          <img src="./image/logo.png">
+        </a>
+        <button class="hamburger hamburger--spin" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+      </div>
+
+      <ul class="nav_list" id="nav_list">
+        <li>
+          <a href="./about.html" id="list_about">關於我們</a>
+        </li>
+        <li>
+          <a href="./news.html" id="list_news">最新消息</a>
+        </li>
+        <li>
+          <a href="./course.html" id="list_course">課程資訊</a>
+        </li>
+        <li>
+          <a href="./event.html" id="list_event">活動花絮</a>
+        </li>
+        <li>
+          <a href="./gallery.html" id="list_gallery">場地租借</a>
+        </li>
+        <li>
+          <a href="./faq.html" id="list_faq">常見問題</a>
+        </li>
+        <li>
+          <div class="login" id="login-show">Login</div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 登入燈箱 -->
+  <div class="login-modal-wrapper" id="login-modal">
+   <div class="modal">
+     <div class="close-modal">
+       <i class="fa fa-2x fa-times"></i>
+     </div>
+     <div id="login-form">
+       <h2>會員登入</h2>
+       <form action="#">
+         <input class="form-control" type="text" placeholder="請輸入Email">
+         <input class="form-control" type="password" placeholder="請輸入密碼">
+         <div id="submit-btn">登入</div>
+         <div id="sign-btn">註冊</div>
+       </form>
+     </div>
+   </div>
+  </div>
+
+  <!-- 中間內容 -->
+  <div class="wrap">
+    <!-- banner -->
+    <section class="header-wrap">
+      <div id="header-ele" class="container h100 relative">
+        <div class="header-text animate__animated animate__fadeInUp">
+          <h1>Paint your life with the colors you want.</h1>
+        </div>
+      </div>
+    </section>
+
+    <section id="three-point" class="section section-rotate box-shadow">
+      <div class="section-rotate-fixed">
+        <div class="section-wrap">
+          <h2 class="text-center">
+            三大特色
+          </h2>
+          <div class="row">
+            <div class="col-three-one">
+              <div class="icon animate__animated animate__tada">
+                <img src="./image/top_01.png">
+              </div>
+              <h3 class="icon-txt">多元課程</h3>
+              <p>提供多樣課程選擇，初學者也不用擔心</p>
+            </div>
+
+            <div class="col-three-one">
+              <div class="icon animate__animated animate__tada">
+                <img src="./image/top_02.png">
+              </div>
+              <h3 class="icon-txt">專業師資</h3>
+              <p>教學經驗豐富，用心帶領每個學員</p>
+            </div>
+
+            <div class="col-three-one">
+              <div class="icon animate__animated animate__tada">
+                <img src="./image/top_03.png">
+              </div>
+              <h3 class="icon-txt">線上預約</h3>
+              <p>即時線上預訂，專員快速回覆</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="bg-gradient1 section-rotate">
+      <div class="section-rotate-fixed">
+        <div class="section-wrap">
+          <h2 id="section2-text" class="text-center">
+            熱門課程
+          </h2>
+          <div class="row">
+            <section class="courses">
+              <div class="course-wrap" data-aos="fade-left" data-aos-duration="800">
+                <div class="item">
+                  <a href="./product.html">
+                    <img src="./image/c1.jpg">
+                    <div class="txt">
+                      <h3>兒童美術師資認證輔導</h3>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="item">
+                  <a href="./product.html">
+                    <img src="./image/c2.jpg">
+                    <div class="txt">
+                      <h3>從心彩繪曼陀羅</h3>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="item">
+                  <a href="./product.html">
+                    <img src="./image/c3.jpg">
+                    <div class="txt">
+                      <h3>Yuli時尚插畫</h3>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="item">
+                  <a href="./product.html">
+                    <img src="./image/c4.jpg">
+                    <div class="txt">
+                      <h3>芳療．聊心話 色彩與脈輪</h3>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="item">
+                  <a href="./product.html">
+                    <img src="./image/c5.jpg">
+                    <div class="txt">
+                      <h3>藝術蝦．畫出你的水彩日常</h3>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="item">
+                  <a href="./product.html">
+                    <img src="./image/c6.jpg">
+                    <div class="txt">
+                      <h3>私的水彩嘻遊曲</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <div class="course-wrap" data-aos="fade-right" data-aos-duration="800">
+                <div class="item">
+                  <a href="./product.html">
+                    <img src="./image/c7.jpg">
+                    <div class="txt">
+                      <h3>圓圈繪畫基礎導師認證</h3>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="item">
+                  <a href="./product.html">
+                    <img src="./image/c8.jpg">
+                    <div class="txt">
+                      <h3>香氛擴石創作</h3>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="item">
+                  <a href="./product.html">
+                    <img src="./image/c9.jpg">
+                    <div class="txt">
+                      <h3>金工生活小品琺瑯銅盤</h3>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="item">
+                  <a href="./product.html">
+                    <img src="./image/c10.jpg">
+                    <div class="txt">
+                      <h3>兒蝕刻鍛敲銅盤</h3>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="item">
+                  <a href="./product.html">
+                    <img src="./image/c11.jpg">
+                    <div class="txt">
+                      <h3>出神入化陶藝師</h3>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="item">
+                  <a href="./product.html">
+                    <img src="./image/c12.jpg">
+                    <div class="txt">
+                      <h3>創意迷你車床大師</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="profiles" class="p-y-3 section-rotate box-shadow">
+      <div class="section-rotate-fixed">
+        <div class="section-wrap">
+          <h2 class="text-center">
+            師資團隊
+          </h2>
+          <div class="circle-row" data-aos="fade-up" data-aos-duration="1000">
+            <div class="col-item">
+              <div class="pic">
+                <img src="./image/t1.jpg">
+              </div>
+              <h3 class="col-txt">Angelina Jolie</h3>
+            </div>
+
+            <div class="col-item">
+              <div class="pic">
+                <img src="./image/t2.jpg">
+              </div>
+              <h3 class="col-txt">Juley Anle</h3>
+            </div>
+
+            <div class="col-item">
+              <div class="pic">
+                <img src="./image/t3.jpg">
+              </div>
+              <h3 class="col-txt">Kim Domingo</h3>
+            </div>
+
+            <div class="col-item">
+              <div class="pic">
+                <img src="./image/t4.jpg">
+              </div>
+              <h3 class="col-txt">Carlin Miller</h3>
+            </div>
+
+            <div class="col-item">
+              <div class="pic">
+                <img src="./image/t5.jpg">
+              </div>
+              <h3 class="col-txt">Steve Brown</h3>
+            </div>
+
+            <div class="col-item">
+              <div class="pic">
+                <img src="./image/t6.jpg">
+              </div>
+              <h3 class="col-txt">Gill Doelam</h3>
+            </div>
+          </div>
+
+          <div class="btn">
+            <a href="./course.html">立即報名</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 底部稱高度 -->
+    <div class="bottom">
+      <div class="section-wrap"></div>
+    </div>
+  </div>
+
+  <!-- 返回top按鈕 -->
+  <a id="up-btn"></a>
+
+  <footer>
+      <div class="footer_container">
+        <div class="info">
+          <p>Nizi Art 藝術工作坊<br>
+            TEL：03-5400-5433<br>
+            桃園市中壢區中大路300號
+          </p>
+        </div>
+
+        <div class="icon">
+          <a href="#"><img src="https://imgur.com/ydZir4N.png"></a>
+          <a href="#"><img src="https://imgur.com/0FRFHFL.png"></a>
+          <a href="#"><img src="https://imgur.com/2JAuBba.png"></a>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>©2020 Nizi Art, Ltd. All Rights Reserved.</p>
+      </div>
+    </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(function(){
+      // hamburger icon 的切換
+      $("button.hamburger").on("click", function(){
+        $(this).toggleClass("is-active");
+      });
+    });
+
+    $(function(){
+      // 點擊按鈕，選單縮放
+      $("button.hamburger").on("click", function(){
+        $("ul.nav_list").slideToggle();
+      });
+    });
+
+    // 會員登入
+    $(function() {
+      $('#login-show').click(function() {
+        $('#login-modal').fadeIn();
+      });
+
+      $('.close-modal').click(function() {
+        $('#login-modal').fadeOut();
+      });
+    });
+
+    // 返回top-btn
+    var btn = $('#up-btn');
+    $(window).scroll(function() {
+      if ($(window).scrollTop() > 300) {
+        btn.addClass('show');
+      } else {
+        btn.removeClass('show');
+      }
+    });
+
+    btn.on('click', function(e) {
+      e.preventDefault();
+      $('html, body').animate({
+        scrollTop:0
+      }, '300');
+    });
+  </script>
+</body>
+
+</html>
