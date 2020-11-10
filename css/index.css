@@ -23,7 +23,7 @@ h2{
 .wrap {
   overflow: hidden;
   background-image: url("../image/top_banner.jpg"), url("../image/top_banner.jpg");
-  background-position: bottom center, top center;
+  background-position: center, top center;
   /* background-size: cover; */
   background-attachment: fixed;
   /* width: 100%; */
@@ -273,6 +273,39 @@ h2{
 
 
 /* RWD */
+@media screen and (max-width: 475px){
+  .header-text > h1 {
+    font-size: 30px;
+  }
+
+  .header-wrap {
+    height: 250px;
+  }
+
+  .item{
+    width: 90%;
+  }
+
+  .item h3{
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .col-item{
+    width: 50%;
+    padding: 30px;
+  }
+
+  .pic img{
+    width: 100%;
+  }
+
+  .circle-row h3{
+    font-size: 20px;
+  }
+
+}
+
 @media screen and (max-width: 575px){
   .header-text > h1 {
     font-size: 30px;
@@ -305,6 +338,7 @@ h2{
   }
 
 }
+
 
 @media (min-width: 576px) and (max-width: 767px){
   .header-text > h1 {
