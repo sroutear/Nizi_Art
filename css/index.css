@@ -22,16 +22,16 @@ h2{
 
 .wrap {
   overflow: hidden;
-  background-image: url("../image/top_banner.jpg");
-  background-position: bottom center;
-  background-size: cover;
+  background-image: url("../image/top_banner.jpg"), url("../image/top_banner.jpg");
+  background-position: bottom center, top center;
+  /* background-size: cover; */
   background-attachment: fixed;
   /* width: 100%; */
 }
 
 
 .header-wrap {
-  height: 600px;
+  height: 500px;
   width: 130%;
   margin: -10% -15% 0 -15%;
   padding-left: 15%;
@@ -279,7 +279,7 @@ h2{
   }
 
   .header-wrap {
-    height: 400px;
+    height: 300px;
   }
 
   .item{
@@ -312,7 +312,7 @@ h2{
   }
 
   .header-wrap {
-    height: 500px;
+    height: 400px;
   }
 
 
