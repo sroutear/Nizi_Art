@@ -426,49 +426,10 @@
   <script>AOS.init();</script>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./js/hamburgers.js"></script>
+  <script src="./js/login.js"></script>
+  <script src="./js/backTopBtn.js"></script>
   <script>
-    $(function () {
-      // hamburger icon 的切換
-      $("button.hamburger").on("click", function () {
-        $(this).toggleClass("is-active");
-      });
-    });
-
-    $(function () {
-      // 點擊按鈕，選單縮放
-      $("button.hamburger").on("click", function () {
-        $("ul.nav_list").slideToggle();
-      });
-    });
-
-    // 會員登入
-    $(function () {
-      $('#login-show').click(function () {
-        $('#login-modal').fadeIn();
-      });
-
-      $('.close-modal').click(function () {
-        $('#login-modal').fadeOut();
-      });
-    });
-
-    // 返回top-btn
-    var btn = $('#up-btn');
-    $(window).scroll(function () {
-      if ($(window).scrollTop() > 300) {
-        btn.addClass('show');
-      } else {
-        btn.removeClass('show');
-      }
-    });
-
-    btn.on('click', function (e) {
-      e.preventDefault();
-      $('html, body').animate({
-        scrollTop: 0
-      }, '300');
-    });
-
     //加入收藏 或 取消收藏
     $(function () {
       $('.heart').click(function () {
