@@ -17,20 +17,20 @@
 }
   
 #up-btn::after {
-content: "\f077";
-font-family: FontAwesome;
-font-weight: normal;
-font-style: normal;
-font-size: 2em;
-line-height: 50px;
-color: #fff;
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
 }
 #up-btn:hover {
-cursor: pointer;
-background-color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 #up-btn.show {
-opacity: 1;
-visibility: visible;
+    opacity: 1;
+    visibility: visible;
 }
